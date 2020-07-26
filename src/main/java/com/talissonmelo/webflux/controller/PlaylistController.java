@@ -5,8 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.talissonmelo.webflux.document.Playlist;
 import com.talissonmelo.webflux.service.PlaylistService;
@@ -14,8 +12,8 @@ import com.talissonmelo.webflux.service.PlaylistService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
-@RequestMapping(value = "/playlist")
+//@RestController
+//@RequestMapping(value = "/playlist")
 public class PlaylistController {
 
 	@Autowired
